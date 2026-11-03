@@ -403,7 +403,7 @@ def filter_by_tag():
     matches = tag_index[tag]
     table = Table(
         title=f"Tools tagged '{tag}'",
-        box=box.SIMPLE_HEAD, show_lines=True,
+        box=box.SIMPLE_HEAD, show_lines=True,-/gethostname
     )
     table.add_column("No.", justify="center", style="bold cyan", width=5)
     table.add_column("", width=2)
